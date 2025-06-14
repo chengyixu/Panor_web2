@@ -363,6 +363,7 @@
             justify-content: center;
             gap: 40px;
             margin-top: 40px;
+            flex-wrap: wrap;
         }
 
         .social-links a {
@@ -435,6 +436,10 @@
                 grid-template-columns: repeat(2, 1fr);
                 gap: 20px;
             }
+
+            .social-links {
+                gap: 20px;
+            }
         }
     </style>
 </head>
@@ -466,28 +471,32 @@
         <h2 class="section-title">Services</h2>
         <div class="services-grid">
             <div class="service-card">
-                <h3>后端架构开发</h3>
-                <p>高性能分布式系统设计，微服务架构，API开发，数据库优化。</p>
+                <h3>微信小程序小游戏开发</h3>
+                <p>专业开发微信小程序游戏，包括休闲游戏、益智游戏等多种类型，提供完整的游戏设计、开发和上线服务。</p>
             </div>
             <div class="service-card">
-                <h3>算法设计实现</h3>
-                <p>数据结构优化，算法性能调优，机器学习模型部署，并行计算。</p>
+                <h3>新闻爬取推送飞书</h3>
+                <p>智能新闻爬虫系统，自动抓取指定来源的新闻资讯，经过AI分析筛选后推送到飞书群聊，帮助团队获取关键信息。</p>
             </div>
             <div class="service-card">
-                <h3>开源项目贡献</h3>
-                <p>参与维护多个开源项目，代码审查，技术文档编写，社区支持。</p>
+                <h3>自动发布小红书（AI生成的内容）</h3>
+                <p>基于AI技术自动生成小红书内容，包括文案创作、图片配对和定时发布，帮助品牌实现内容营销自动化。</p>
             </div>
             <div class="service-card">
-                <h3>技术栈迁移</h3>
-                <p>遗留系统重构，技术债务清理，现代化框架迁移，性能优化。</p>
+                <h3>盖章服务，实习证明等</h3>
+                <p>提供各类证明文件的电子盖章服务，包括实习证明、工作证明等，快速便捷，安全可靠。</p>
             </div>
             <div class="service-card">
-                <h3>底层系统开发</h3>
-                <p>操作系统模块，设备驱动，嵌入式系统，实时系统开发。</p>
+                <h3>礼物代送服务 - GiftEase</h3>
+                <p>匿名礼物代送平台，保护用户隐私的同时传递心意，支持全国范围内的礼品配送服务。</p>
             </div>
             <div class="service-card">
-                <h3>性能调优服务</h3>
-                <p>系统性能分析，瓶颈定位，内存泄漏排查，并发优化。</p>
+                <h3>AI邮件分析服务</h3>
+                <p>利用AI技术分析邮件内容，自动分类、优先级排序和智能回复建议，提升邮件处理效率。</p>
+            </div>
+            <div class="service-card">
+                <h3>其他AI相关软件开发服务</h3>
+                <p>提供各类AI应用开发服务，包括聊天机器人、智能推荐系统、数据分析工具等定制化解决方案。</p>
             </div>
         </div>
     </section>
@@ -502,9 +511,9 @@
                         <!-- 项目图片占位符 -->
                     </div>
                     <div class="project-info">
-                        <h3>分布式任务调度器</h3>
-                        <p>Go实现的高并发任务调度系统，支持cron表达式，容错和负载均衡。</p>
-                        <a href="#" class="project-link">GitHub</a>
+                        <h3>Pacering</h3>
+                        <p>效率环，用Apple运动环的方式管理工作</p>
+                        <a href="https://github.com/chengyixu" class="project-link">GitHub</a>
                     </div>
                 </div>
                 <div class="project-card">
@@ -512,9 +521,9 @@
                         <!-- 项目图片占位符 -->
                     </div>
                     <div class="project-info">
-                        <h3>实时数据流处理框架</h3>
-                        <p>基于Kafka和Flink的流处理引擎，毫秒级延迟，支持复杂事件处理。</p>
-                        <a href="#" class="project-link">GitHub</a>
+                        <h3>AI戒指</h3>
+                        <p>基于物联网技术的智能戒指项目，集成健康监测、消息提醒和语音助手功能。</p>
+                        <a href="https://github.com/chengyixu" class="project-link">GitHub</a>
                     </div>
                 </div>
                 <div class="project-card">
@@ -522,9 +531,9 @@
                         <!-- 项目图片占位符 -->
                     </div>
                     <div class="project-info">
-                        <h3>编译器前端实现</h3>
-                        <p>自研编程语言的词法分析器和语法解析器，支持LLVM后端。</p>
-                        <a href="#" class="project-link">GitHub</a>
+                        <h3>AI桌面宠物</h3>
+                        <p>自主交互的桌面AI宠物应用，具备对话功能、情感表达和学习能力，陪伴用户日常工作。</p>
+                        <a href="https://github.com/chengyixu" class="project-link">GitHub</a>
                     </div>
                 </div>
                 <div class="project-card">
@@ -532,9 +541,9 @@
                         <!-- 项目图片占位符 -->
                     </div>
                     <div class="project-info">
-                        <h3>内存数据库引擎</h3>
-                        <p>C++实现的高性能KV存储，支持MVCC和分布式事务。</p>
-                        <a href="#" class="project-link">GitHub</a>
+                        <h3>默契游戏</h3>
+                        <p>创新的多人在线默契测试游戏，通过心理学算法评估玩家间的默契程度。</p>
+                        <a href="https://github.com/chengyixu" class="project-link">GitHub</a>
                     </div>
                 </div>
                 <div class="project-card">
@@ -542,9 +551,9 @@
                         <!-- 项目图片占位符 -->
                     </div>
                     <div class="project-info">
-                        <h3>WebAssembly运行时</h3>
-                        <p>轻量级WASM虚拟机，支持JIT编译和安全沙箱执行。</p>
-                        <a href="#" class="project-link">GitHub</a>
+                        <h3>AI海龟汤</h3>
+                        <p>基于自然语言处理的智能推理游戏，AI作为出题者与玩家进行互动式推理对话。</p>
+                        <a href="https://github.com/chengyixu" class="project-link">GitHub</a>
                     </div>
                 </div>
                 <div class="project-card">
@@ -554,7 +563,7 @@
                     <div class="project-info">
                         <h3>网络协议栈实现</h3>
                         <p>用户态TCP/IP协议栈，DPDK加速，10Gbps吞吐量。</p>
-                        <a href="#" class="project-link">GitHub</a>
+                        <a href="https://github.com/chengyixu" class="project-link">GitHub</a>
                     </div>
                 </div>
             </div>
@@ -569,49 +578,49 @@
                 <div class="member-avatar">
                     <!-- 头像占位符 -->
                 </div>
-                <h3>徐成一</h3>
-                <p class="title">Principal Engineer</p>
-                <p>系统架构师，专注分布式系统和高性能计算。</p>
+                <h3>Wilson_徐</h3>
+                <p class="title">CTO</p>
+                <p>开发</p>
             </div>
             <div class="team-member">
                 <div class="member-avatar">
                     <!-- 头像占位符 -->
                 </div>
-                <h3>李华</h3>
-                <p class="title">Backend Developer</p>
-                <p>Rust/Go开发者，数据库优化和API设计专家。</p>
+                <h3>Samantha_张</h3>
+                <p class="title">COO</p>
+                <p>Execute</p>
             </div>
             <div class="team-member">
                 <div class="member-avatar">
                     <!-- 头像占位符 -->
                 </div>
-                <h3>王芳</h3>
-                <p class="title">ML Engineer</p>
-                <p>深度学习框架开发，模型优化和部署。</p>
+                <h3>Claire_张</h3>
+                <p class="title">CMO</p>
+                <p>Design</p>
             </div>
             <div class="team-member">
                 <div class="member-avatar">
                     <!-- 头像占位符 -->
                 </div>
-                <h3>刘强</h3>
-                <p class="title">DevOps Engineer</p>
-                <p>K8s运维专家，CI/CD流程和基础设施自动化。</p>
+                <h3>Qiao Zhao</h3>
+                <p class="title">CFO</p>
+                <p>Financing</p>
             </div>
             <div class="team-member">
                 <div class="member-avatar">
                     <!-- 头像占位符 -->
                 </div>
-                <h3>陈静</h3>
-                <p class="title">Compiler Engineer</p>
-                <p>编译器优化，LLVM开发，静态分析工具。</p>
+                <h3>WGY</h3>
+                <p class="title">Chief Scientist</p>
+                <p>Research</p>
             </div>
             <div class="team-member">
                 <div class="member-avatar">
                     <!-- 头像占位符 -->
                 </div>
-                <h3>赵军</h3>
-                <p class="title">Security Engineer</p>
-                <p>渗透测试，安全审计，加密协议实现。</p>
+                <h3>CRZ</h3>
+                <p class="title">Chief Analyst</p>
+                <p>Research</p>
             </div>
         </div>
     </section>
@@ -621,12 +630,12 @@
         <div class="section-content">
             <h2 class="section-title">Contact</h2>
             <div class="social-links">
-                <a href="#" target="_blank">GitHub</a>
-                <a href="#" target="_blank">Stack Overflow</a>
-                <a href="#" target="_blank">LinkedIn</a>
-                <a href="#" target="_blank">LeetCode</a>
-                <a href="#" target="_blank">Blog</a>
-                <a href="#" target="_blank">Email</a>
+                <a href="https://github.com/chengyixu" target="_blank">GitHub</a>
+                <a href="https://www.xiaohongshu.com/user/profile/355643991" target="_blank">XiaohongShu</a>
+                <a href="https://www.linkedin.com/in/chengyi-xu-cn/" target="_blank">LinkedIn</a>
+                <a href="https://www.aiconnector.cn/" target="_blank">Blog</a>
+                <a href="mailto:chengyi_xu@outlook.com">Email</a>
+                <a href="weixin://dl/chat?17640021998">WeChat</a>
             </div>
         </div>
     </section>
